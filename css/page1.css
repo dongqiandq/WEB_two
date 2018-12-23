@@ -1,0 +1,508 @@
+*{
+	margin:0;
+	padding:0;
+}
+ol,ul,li{
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+	color:#000;
+}
+.clear:after{
+	content: "";
+	height: 0px;
+	display: block;
+	clear: both;
+}
+.clear:before{
+	content: "";
+	height: 0px;
+	display: block;
+	clear: both;
+}
+
+.orange{
+	position: fixed;
+	top:108px;
+	right: -80px;
+	width: 125px;
+	height: 510px;
+}
+.orange .one{
+	position: fixed;
+	right: -80px;
+	top:108px;
+	/*height: 70px;*/
+}
+.orange .two{
+	position: fixed;
+	right: -80px;
+	width: 125px;
+	height: 160px;
+	top:215px;
+}
+.orange .two .youhui{
+	width: 65px;
+	height:140px;
+	font-size: 12px;
+	background: #fd9a6e;
+	display: inline-block;
+}
+.orange .two .youhui button{
+	cursor: pointer;
+	background: #fd9a6e;
+	border: 1px solid #fff;
+	border-radius: 3px;
+	font-size: 12px;
+	padding:3px 5px;
+	margin-top: 10px;
+}
+
+.orange .three{
+	position: fixed;
+	right: -80px;
+	top:355px;
+	width: 125px;
+	height: 140px;
+	background: #fd9a6e;
+	margin-top: 3px;
+}
+.orange .four{
+	top:498px;
+	margin-top: 3px;
+	position: fixed;
+	right: -80px;
+}
+
+.window{
+	width: 100%;
+}
+ /*cover开始*/
+.cover{
+	width: 100%;
+	height: 128px;
+	position: fixed;
+	top:0px;
+	z-index: 9999;
+	background: #fff;
+}
+#abc{
+	width:100%;
+	margin-top:128px;
+}
+.cover .content{
+	width: 1180px;
+	height: 128px;
+	margin:0 auto;
+}
+.cover .content .top{
+	padding-top: 7px;
+	font-size: 12px;
+	color: #807d78;
+}
+.cover .content .top .left{
+	padding-right: 378px;
+}
+.cover .content .top .right{
+	width: 720px;
+	height: 19px;
+	float: right;
+	display: inline-block;
+}
+.cover .content .top .right a{
+	float: left;
+}
+.cover .content .down .left{
+	margin-top: 20px;
+	margin-right: 107px;
+	display: inline-block;
+	float: left;
+}
+.cover .content .down .mid{
+	width: 586px;
+	height: 101px;
+	float: left;
+}
+.cover .content .down .mid .find{
+	margin-top: 25px;
+	display: inline-block;
+}
+.cover .content .down .mid .search{
+	width: 497px;
+	height: 35px;
+	border:solid 2px #fe6c00;
+	float: left;
+}
+.cover .content .down .mid .text{
+	width: 80px;
+	height: 39px;
+	background:#fe6c00;
+	color: #fff;
+	font-size:15px;
+	border:none;
+}
+.cover .content .down .mid a{
+	float: left;
+	margin-top: 10px;
+	background: url(../img/shuxian.jpg) no-repeat right;
+	padding: 1px 5px;
+	font-size: 10px;
+}
+.cover .content .down .mid .k1,.k2{
+	color: #fe6c00;
+}
+.cover .content .down .mid .k5,.k6{
+	color: #b4a8d6;
+}
+.cover .content .down .right{
+	height: 70px;
+	float: right;
+	padding-left: 87px;
+	padding-top: 25px;
+}
+.cover .content .down .right .tel,.email,.quest{
+	display: inline-block;
+	width: 84px;
+	height: 38px;
+	border: solid 1px #b4a8d6;
+	float: left;
+}
+.cover .content .down .right .quest{
+	text-align: center;
+	vertical-align: center;
+}
+.cover .content .down .right .number{ 
+	font-size: 10px;
+	color: #b4a8d6;
+	padding-left: 10px;
+}
+.cover .content .down .right .ask{
+	font-size: 12px;
+	color: #fff;
+	padding-top:11px; 
+}
+.cover .content .down .right .simg{
+	width: 18px;
+	margin-left: 30px;
+	height: 20px;
+}
+/*cover结束*/
+
+/*main开始*/
+.main{
+	width: 100%;
+	height: 590px;
+}
+.main .top{
+	width: 1180px;
+	height: 40px;
+	margin:0 auto;
+	background: #fff;
+}
+.main .top .allkind{
+	display: inline-block;
+	width: 170px;
+	height: 30px;
+	background: #ff4d04;
+	font-size: 15px;
+	color: #fff;
+	text-align: center;
+	padding-top:10px; 
+	float: left;
+}
+.main .top .specific{
+	display: inline-block;
+	width: 805px
+	height:40px;
+}
+.main .top .specific a{
+	float: left;
+	padding-top: 10px;
+	padding-right: 55px;
+}
+.main .top .specific a:hover{
+	color: #ff4d04;
+}
+.main .content{
+	height: 550px;
+	width: 100%;
+	margin:0 auto;
+	background: #f8f7f6;
+}
+.main .content .down{
+	position: relative;
+	height: 550px;
+	width: 1180px;
+	margin:0 auto;
+	background: #fff;
+}
+.main .content .down .left{
+	border-bottom: solid 1px #ff4d04;
+	padding-top:20px; 
+	width: 25px;
+	height: 400px;
+	background: #4c4c4a;
+	float: left;
+}
+.main .content .down .left span{
+	color: red;
+	width: 25px;
+	height: 18px;
+	font-size: 17px;
+	margin-left: 3px;
+	margin-top: 3px;
+}
+.main .content .down .spekind{
+	border-bottom: solid 1px #ff4d04;
+	width: 145px;
+	height: 420px;
+	display: inline-block;
+}
+.main .content .down .spekind li{
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+.main .content .down .spekind a{
+	font-size: 12px;
+	margin-right: 5px;
+}
+.main .content .down .spekind a:hover{
+	color: #ff4d04;
+}
+.main .content .down .serve{
+	width: 170px;
+	height: 129px;
+	position: absolute;
+	bottom: 0px;
+}
+.main .content .down .serve li{
+	margin-bottom: 13px;
+	margin-top: 13px;
+	margin-left: 7px;
+}
+.main .content .down .serve span{
+	font-size: 13px;
+	color: #855d38;
+	margin-left: 10px;
+}
+.main .content .down .box{
+	position: absolute;
+	top:0px;
+	width: 800px;
+	height: 364px;
+	border-bottom: solid 1px #ff4d04;
+	border-right: solid 1px #ff4d04;
+	margin:0 auto;
+	/*position: relative;*/
+	display: inline-block;
+	overflow: hidden;
+}
+.slider{
+	width: 6400px;
+	position: absolute;
+	left: -800px;
+}
+.slide{
+	width: 800px;
+	overflow: hidden;
+	float: left;
+}
+
+.box>span{
+	display: block;
+	width: 50px;
+	height: 50px;
+	border-radius: 7px;
+	text-align: center;
+	cursor: pointer;
+	color: #fff;
+	top: 175px;
+	line-height: 50px;
+	font-size: 30px;
+	position: absolute;
+	/* display: none; */
+	opacity: 0;
+	overflow: hidden;
+}
+#left{
+	left: 30px;
+}
+#right{
+	right: 30px;
+}
+.nav{
+	position: absolute;
+	left: 300px;
+	bottom: 20px;
+}
+.nav>li{
+	text-align: center;
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: #efeeec;
+	cursor: pointer;
+	margin: 0 3px;
+	border-radius: 50%;
+}
+.nav .active{
+	background: #fe6c00;
+}
+
+.main .content .down .four{
+	border-right: solid 1px #ff4d04;
+	position: absolute;
+	bottom: 0px;
+	left: 170px;
+	display: inline-block;
+}
+.main .content .down .four a{
+	float: left;
+}
+.main .content .down .rig{
+	display: inline-block;
+	position: absolute;
+	top: 0px;
+	right:0px;
+	width: 210px;
+	height: 550px;
+}
+.main .content .down .rig .top{
+	width: 210px;
+	height: 43px;
+}
+.main .content .down .rig .top span{
+	margin-top:16px;
+	margin-left:10px;
+	margin-right: 78px;
+	font-size: 15px;
+	color: #ff6b4e;
+	font-weight: bolder;
+}
+.main .content .down .rig .mid{
+	position: relative;
+	overflow: hidden;
+	width: 210px;
+	border-bottom: solid 1px #ebeae7;
+	border-top: solid 1px #ebeae7;
+	height: 318px;
+}
+.main .content .down .rig .mid .gonggao{
+	position: absolute;
+	top:-30px;
+}
+.main .content .down .rig .mid .li{
+	font-size: 12px;
+	color: #ff6b4e;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	margin-left: 14px;
+	font-weight: bolder;
+	cursor: pointer;
+}
+.main .content .down .rig .dong{
+	width: 210px;
+	height: 184px;
+}
+.main .content .down .rig .dong .aa span{
+	font-size: 12px;
+}
+.main .content .down .rig .dong .aa .canuse{
+	font-size: 12px;
+	color: #ff6b4e;
+}
+.main .content .down .rig .dong .bb{
+	width: 125px;
+	height: 25px;
+	margin-top: 8px;
+	font-size: 13px;
+	color: #a3a19a;
+	border: solid 0.5px #a3a19a;
+}
+.main .content .down .rig .dong .dd button{
+	width: 178px;
+	height: 25px;
+	font-size: 14px;
+	color: #fff;
+	border-radius: 3px;
+	border:none; 
+	background: #ff6b4e;
+	margin-top: 5px;
+}
+/*main结束*/
+
+/*final开始*/
+.final{
+	width:100%;
+	height: 345px;
+	background: #f8f7f6;
+
+}
+.final .content{
+	width:1180px;
+	height: 345px;
+	margin:0 auto;
+}
+.final .content .one{
+	height: 180px;
+}
+.final .content .two{
+	
+}
+.final .content .three{
+	
+}
+.final .content .one .right{
+	display: inline-block;
+	width: 1030px;
+	height: 180px;
+	border-bottom:  solid 1px #a7c2e3;
+}
+.final .content .one .right .out{
+	margin-top: 30px;
+}
+.final .content .one .right .out .firout{
+	float: left;
+	margin-right: 67px;
+}
+.final .content .one .right .out .firout .inner li{
+	font-size: 12px;
+	color: #666560;
+	margin-top: 11px;
+}
+.final .content .one .right .out .firout .inner .fir{
+	font-size: 16px;
+	color: #000;
+	margin-top: 0px;
+}
+.final .content .two ul{
+	margin-top: 15px;
+	margin-left: 240px;
+}
+.final .content .two ul li{
+	float: left;
+	font-size: 12px;
+	background: url(../img/shuxian.jpg) no-repeat right;
+}
+.final .content .two li span{
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.final .content .three div{
+	font-size: 10px;
+	color: #666560;
+	margin-top: 10px;
+	text-align: center;
+}
+.final .content  .four{
+	margin-left: 200px;
+	margin-top: 14px;
+}
+/*final结束*/
+
+/*dongright开始*/
+
+/*dongright结束*/
